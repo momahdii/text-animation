@@ -1,0 +1,72 @@
+* {
+    font-family: tahoma;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.text {
+    display: flex;
+    gap: 5px;
+}
+
+span {
+    color: rgb(17, 146, 17);
+}
+
+#span {
+    display: block;
+    overflow-x: hidden;
+    animation: 2s anime1 2s;
+}
+
+#caret {
+    font-weight: 100;
+}
+
+@keyframes anime1 {
+    0% {
+        width: 125px;
+    }
+
+    100% {
+        width: 0px;
+    }
+}
+
+@keyframes anime2 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 157px;
+    }
+}
+
+@keyframes anime3 {
+    0% {
+        width: 157px;
+    }
+
+    100% {
+        width: 0px;
+    }
+}
+
+@keyframes anime4 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 125px;
+    }
+}
